@@ -1,7 +1,7 @@
 {
   "name": "babel-node-boilerplate",
   "version": "0.0.1",
-  "description": "a simple node boilerplate with babel",
+  "description": "Just a simple starting place for a node app with babel and nodemon set up.",
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
@@ -10,8 +10,13 @@
     "build": "npm run clean && mkdir dist && babel server -s -d dist",
     "production": "npm run build && nodemon bin/production"
   },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/pigeontoe/babel-node-boilerplate.git"
+  },
   "author": "Andrew Van Hemelrijck",
   "license": "ISC",
+  "homepage": "https://github.com/pigeontoe/babel-node-boilerplate#README.md",
   "dependencies": {
     "babel-cli": "^6.26.0",
     "babel-preset-env": "^1.6.1",
