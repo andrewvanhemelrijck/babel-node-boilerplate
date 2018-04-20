@@ -1,0 +1,1 @@
+{"version":3,"sources":["../server/index.js"],"names":["console","log"],"mappings":";;AAAA;;;;;;AAEA,mBAAI,iBAAJ;;AAEAA,QAAQC,GAAR,CAAY,UAAZ","file":"index.js","sourcesContent":["import log from './log';\n\nlog('log.js working!');\n\nconsole.log('index.js');\n"]}

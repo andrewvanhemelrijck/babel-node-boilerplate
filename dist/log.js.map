@@ -1,0 +1,1 @@
+{"version":3,"sources":["../server/log.js"],"names":["log","msg","console"],"mappings":";;;;;AAAA,IAAMA,MAAM,SAANA,GAAM,CAACC,GAAD,EAAS;AACnBC,UAAQF,GAAR,CAAYC,GAAZ;AACD,CAFD;;kBAIeD,G","file":"log.js","sourcesContent":["const log = (msg) => {\n  console.log(msg);\n};\n\nexport default log;"]}
