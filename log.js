@@ -1,5 +1,5 @@
-const log = () => {
-  console.log('working');
+const log = (msg) => {
+  console.log(msg);
 };
 
 export default log;
